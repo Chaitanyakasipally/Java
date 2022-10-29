@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="298.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication8.FXMLDocumentController">
+    <children>
+        <Button fx:id="btn_top_left" layoutX="39.0" layoutY="26.0" onAction="#handleTopLeftAction" prefHeight="55.0" prefWidth="65.0" />
+        <Label fx:id="lbl_top_left" layoutX="60.0" layoutY="33.0" minHeight="16" minWidth="23.0" mouseTransparent="true" prefHeight="41.0" prefWidth="23.0" textAlignment="CENTER">
+         <font>
+            <Font name="Gabriola" size="38.0" />
+         </font></Label>
+      <Button fx:id="btn_top_right" layoutX="176.0" layoutY="26.0" onAction="#handleTopRightAction" prefHeight="55.0" prefWidth="65.0" />
+      <Label fx:id="lbl_top_right" layoutX="197.0" layoutY="33.0" minHeight="16" minWidth="23.0" mouseTransparent="true" prefHeight="41.0" prefWidth="23.0" textAlignment="CENTER">
+         <font>
+            <Font name="Gabriola" size="38.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_top" layoutX="107.0" layoutY="26.0" onAction="#handleTopAction" prefHeight="55.0" prefWidth="65.0" />
+      <Label fx:id="lbl_top" layoutX="128.0" layoutY="33.0" minHeight="16" minWidth="23.0" mouseTransparent="true" prefHeight="41.0" prefWidth="23.0" textAlignment="CENTER">
+         <font>
+            <Font name="Gabriola" size="38.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_center" layoutX="107.0" layoutY="87.0" onAction="#handleCenterAction" prefHeight="55.0" prefWidth="65.0" />
+      <Button fx:id="btn_center_right" layoutX="176.0" layoutY="87.0" onAction="#handleCenterRightAction" prefHeight="55.0" prefWidth="65.0" />
+      <Button fx:id="btn_center_left" layoutX="39.0" layoutY="87.0" onAction="#handleCenterLeftAction" prefHeight="55.0" prefWidth="65.0" />
+      <Button fx:id="btn_bottom_left" layoutX="40.0" layoutY="147.0" onAction="#handleBottomLeftAction" prefHeight="55.0" prefWidth="65.0" />
+      <Button fx:id="btn_bottom_right" layoutX="177.0" layoutY="147.0" onAction="#handleBottomRightAction" prefHeight="55.0" prefWidth="65.0" />
+      <Button fx:id="btn_bottom_center" layoutX="108.0" layoutY="147.0" onAction="#handleBottomAction" prefHeight="55.0" prefWidth="65.0" />
+      <Label fx:id="lbl_center_left" layoutX="60.0" layoutY="94.0" minHeight="16" minWidth="23.0" mouseTransparent="true" prefHeight="41.0" prefWidth="23.0" textAlignment="CENTER">
+         <font>
+            <Font name="Gabriola" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_center" layoutX="129.0" layoutY="94.0" minHeight="16" minWidth="23.0" mouseTransparent="true" prefHeight="41.0" prefWidth="23.0" textAlignment="CENTER">
+         <font>
+            <Font name="Gabriola" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_center_right" layoutX="198.0" layoutY="94.0" minHeight="16" minWidth="23.0" mouseTransparent="true" prefHeight="41.0" prefWidth="23.0" textAlignment="CENTER">
+         <font>
+            <Font name="Gabriola" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_bottom_left" layoutX="61.0" layoutY="154.0" minHeight="16" minWidth="23.0" mouseTransparent="true" prefHeight="41.0" prefWidth="23.0" textAlignment="CENTER">
+         <font>
+            <Font name="Gabriola" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_bottom" layoutX="129.0" layoutY="154.0" minHeight="16" minWidth="23.0" mouseTransparent="true" prefHeight="41.0" prefWidth="23.0" textAlignment="CENTER">
+         <font>
+            <Font name="Gabriola" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_bottom_right" layoutX="198.0" layoutY="154.0" minHeight="16" minWidth="23.0" mouseTransparent="true" prefHeight="41.0" prefWidth="23.0" textAlignment="CENTER">
+         <font>
+            <Font name="Gabriola" size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="33.0" prefHeight="30.0" prefWidth="57.0" text="X wins = " fx:id="x" />
+      <Label fx:id="lbl_x_wins" layoutX="320.0" layoutY="33.0" prefHeight="30.0" prefWidth="57.0" />
+      <Label fx:id="lbl_o_wins" layoutX="320.0" layoutY="67.0" prefHeight="30.0" prefWidth="57.0" />
+      <Label fx:id="o" layoutX="263.0" layoutY="67.0" prefHeight="30.0" prefWidth="65.0" text="O wins = " />
+      <Label fx:id="d" layoutX="264.0" layoutY="98.0" prefHeight="30.0" prefWidth="65.0" text="Draws = " />
+      <Label fx:id="lbl_draws" layoutX="321.0" layoutY="98.0" prefHeight="30.0" prefWidth="57.0" />
+      <Button layoutX="259.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleResetAction" text="Reset" />
+      <Button layoutX="329.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleButtonQuitAction" opacity="0.82" text="Quit" />
+    </children>
+</AnchorPane>
